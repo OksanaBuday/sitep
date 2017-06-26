@@ -188,7 +188,7 @@ table {
       display: flex;
      
     align-items:center;
-    justify-content:space-between;
+    justify-content:center;
     list-style-type: none;
     list-style-position: inside;
  
@@ -203,7 +203,7 @@ table {
       display: flex;
      
     align-items:center;
-    justify-content:space-between;
+    justify-content:center;
     list-style-type: none;
     list-style-position: inside;
 }
@@ -223,6 +223,7 @@ table {
 }
 .nature{
     border:2px black solid;
+  background-color:#D7D7D7;
     margin: 0 auto;
      padding-top: 10px;
     padding-right : -10px;
@@ -232,7 +233,7 @@ table {
 }
 .wedding {
           border:2px black solid;
-    background-color: green;
+    background-color:#E8EAEB;
     color: black;
     margin: 0 auto;
      padding-top: 10px;
@@ -243,7 +244,7 @@ table {
 
 .kids{
       border:2px black solid;
-    color: black;
+        background-color: #D7D7D7;
     margin: 0 auto;
      padding-top: 10px;
     padding-right : 20px;
@@ -254,7 +255,7 @@ table {
 .story{
      border:2px black solid;
     margin: 0 auto;
-    background-color:gray;
+    background-color: #E8EAEB	;
      padding-top: 10px;
     padding-right : -10px;
     padding-bottom: 10px;
@@ -262,7 +263,6 @@ table {
 }
 
 .flick_feed{
-    /*border-color: black 1px solid;*/
     font-size: 30px;
     color: black;
     margin: 0 10px;
@@ -278,7 +278,10 @@ table {
     margin: 0 auto;
     padding: 0 0px;
 }
-
+.all_ph{
+    border: 2px black solid;
+    padding-top: 5px;
+}
 .blog{
 
      font-size: 30px;
@@ -292,29 +295,94 @@ table {
 }
 
 .blog_witer_ph img{
-    height: 200px;
+    height: 250px;
+     border: 2px black solid;
    
 }
 .blog_witer_ph  {
+       margin: 0 auto;
+    bottom:10px;
      display: flex;
-    align-items: flex-end;
+    align-items: center;
     list-style-type: none;
     list-style-position: inside;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 10px;
+    justify-content: center;
 }
 
 .blog_witer_ph2 img{
-    height: 200px;
-}
-.blog_witer_ph2  {
-     display: flex;
-    align-items: flex-end;
-    list-style-type: none;
-    list-style-position: inside;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 10px;  
+     border: 2px black solid;
+    height: 250px;
     
 }
+.blog_witer_ph2  {
+   font-size: 18px;
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    list-style-position: inside;
+    justify-content: center;
+}
+.contact_me{
+      font-size: 30px;
+    color: black;
+    margin: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts{
+    font-size: 20px;
+    width: 100%;
+    margin: 0 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+/*textarea {*/
+/*    width: 100%;*/
+/*    height: 150px;*/
+/*    padding: 12px 20px;*/
+/*    box-sizing: border-box;*/
+/*    border: 2px solid #ccc;*/
+/*    border-radius: 4px;*/
+/*    background-color: #f8f8f8;*/
+/*    resize: none;*/
+/*}*/
+ /*.name{*/
+ /*    box-sizing: border-box;*/
+     /*font-size: 100%;*/
+     /*margin-top: 10px;*/
+     /*margin-right: 0px;*/
+     /*margin-bottom: 10px;*/
+     /*margin-left: 0px;*/
+ /*    display: flex;*/
+ /*    justify-content:flex-start;*/
+ /*}*/
+ /*.name label{*/
+ /*    align-self:center;*/
+ /*    margin-left: 10%;*/
+ /*}*/
+ /*.name input{*/
+ /*    margin-right: 10%;*/
+ /*    padding: 0 5px;*/
+ /*    width: 80%;*/
+ /*    box-sizing: border-box;*/
+ /*}*/
+ /*input{*/
+ /*    border: 2px black solid;*/
+ /*}*/
+ .e_mail{
+    margin-top: 20px;
+ margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+ }
