@@ -181,26 +181,31 @@ table {
 
 
 .bloc1   {
+   width: 60%;
+     font-size: 16px;
+     margin-top: 10px;
+          padding: 0px;  
       display: flex;
-    align-items: flex-start;
-    justify-content:flex-start;
+     
+    align-items:center;
+    justify-content:space-between;
     list-style-type: none;
     list-style-position: inside;
-    margin: 0 auto;
-    padding: 0px;  
  
 }
 
 .bloc2 {
     
+    width: 60%;
+     font-size: 16px;
+     margin-top: 10px;
+          padding: 0px;  
       display: flex;
-    align-items: flex-start;
-    justify-content:flex-start;
+     
+    align-items:center;
+    justify-content:space-between;
     list-style-type: none;
     list-style-position: inside;
-    margin: 0 auto;
-    padding: 0px;
- 
 }
 .bloc1 li{
     width: 100%;
@@ -210,53 +215,54 @@ table {
 
 } 
 .bloc2 li{
-    width: 100%;
+      width: 100%;
      list-style-type: none;
-    margin: 0 auto;
+     margin: 0 auto;
+     
+  
 }
 .nature{
     border:2px black solid;
+    margin: 0 auto;
+     padding-top: 10px;
+    padding-right : -10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+   
+}
+.wedding {
+          border:2px black solid;
     background-color: green;
     color: black;
-   
-     top: 0px;
-    right: 50px;
-    left: 0px;
-    bottom: 0px;
     margin: 0 auto;
-   
+     padding-top: 10px;
+    padding-right : 20px;
+    padding-bottom: 10px;
+    padding-left: 8px;
 }
-.wedding{
-     border:2px black solid;
-      top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    margin: 0 auto;
-}
+
 .kids{
-     border:2px black solid;
-      top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
+      border:2px black solid;
+    color: black;
     margin: 0 auto;
+     padding-top: 10px;
+    padding-right : 20px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+ 
 }
 .story{
      border:2px black solid;
-     left: 50%;
-      top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
     margin: 0 auto;
+    background-color:gray;
+     padding-top: 10px;
+    padding-right : -10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
-
-
-
-
 .flick_feed{
+    /*border-color: black 1px solid;*/
     font-size: 30px;
     color: black;
     margin: 0 10px;
@@ -274,6 +280,7 @@ table {
 }
 
 .blog{
+
      font-size: 30px;
     color: black;
     margin: 0 10px;
