@@ -63,107 +63,78 @@ header p {
     align-items: center;
     justify-content: center;
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 980px) {
     header p {
-        display: none;        
+       font-size: 30px;       
     }
-    nav {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    margin: 0 auto;
+    .info{
+      position: relative;
+}
+}
+@media screen and (max-width: 500px) {
+.conteiner{
+     position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    list-style-type: none;
-    text-decoration: none;
+    text-align: flex-start;
+    justify-content:flex-start;
+    font-size: 18px;
 }
 
-nav ul {
-    display: flex;
-    align-items: flex-end;
-    list-style-type: none;
-    list-style-position: inside;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 10px;
-}
-
-nav li {
-    /*list-style: none;*/
-    margin: 0 0px;
-    padding: 0 0px;
-}
-
-nav li a {
-    font-size: 40px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0 30px;
-    color: white;
-}
-
-      
-/*    nav {*/
-    /*position: absolute;*/
-    /*top: 0px;*/
-    /*right: 0px;*/
-    /*left: 0px;*/
-    /*bottom: 0px;*/
-    /*margin: 0 auto;*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items:center;*/
-   
-/*}*/
-/*    nav ul{*/
-/*        margin-top: 200px;*/
-/*        display: flex;*/
-/*        justify-content:center;*/
-/*        align-items:center;*/
-/*    }*/
-    nav ul li a{
-        font-size: 30px;
-        display: flex;
-        justify-content:center;
-        align-items:center;
-        color: white;
-    }
-    nav {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    left: 0px;
-    bottom: 0px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-nav ul {
-    display: flex;
-    align-items: flex-end;
-    list-style-type: none;
-    list-style-position: inside;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 10px;
+.two img { 
+    width: 500px;
+    height: auto;
+    opacity: 0.4;
 }
     
-    main .two{
-        width: 500px;
-        opacity: 50%;
-        z-index: 1;
-        
-    }
+/*    nav {*/
+/*    position: absolute;*/
+/*    top: 200px;*/
+/*    right: 0px;*/
+/*    left: 0px;*/
+/*    bottom: 0px;*/
+/*    margin: 0 auto;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    list-style-type: none;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*nav ul {*/
+    /*display: flex;*/
+    /*align-items: flex-end;*/
+/*    list-style-type: none;*/
+/*    list-style-position: inside;*/
+    /*justify-content: space-between;*/
+/*    margin: 0px;*/
+/*    padding: 10px;*/
+/*}*/
+
+/* nav li {*/
+    /*list-style: none;*/
+/*    margin: 0 0px;*/
+/*    padding: 0 0px;*/
+/*}*/
+
+/*nav ul li a {*/
+/*    font-size: 40px;*/
+/*    font-weight: bold;*/
+/*    text-decoration: none;*/
+/*    padding: 0 30px;*/
+/*    color: white;*/
+/*}*/
+
+
+    
+    
+    
    /*//////////////////////////////////////////////////////////////////////////// */
 }
 
+/*..................................................................*/
 nav {
     position: absolute;
     top: 0px;
