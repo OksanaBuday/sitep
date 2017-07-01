@@ -332,16 +332,7 @@ nav li a {
     padding-bottom: 10px;
     padding-left: 8px;
 }
-@media screen and (max-width: 600px) {
- .bloc1  {
-  display: inline-block;
- } 
- .bloc2  {
-    display: inline-block;
-  
- }
- 
- }
+
 .kids {
     border: 2px black solid;
     background-color: #D7D7D7;
@@ -361,7 +352,24 @@ nav li a {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-
+@media screen and (max-width: 920px) {
+ .bloc1  {
+  display: inline-block;
+  width: 100%;
+  font-family: 24px;
+ } 
+ .bloc2  {
+    display: inline-block;
+   width: 100%;
+  font-family: 24px;
+ }
+.bloc1 ul {
+    margin-bottom: 15px;
+ }
+ .bloc2 ul{
+  margin-bottom:  15px;
+ }
+ }
 
 .flick_feed {
     font-size: 30px;
@@ -388,37 +396,11 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-/*.photo img {*/
-/*    height: 200px;*/
-/*    margin-top: 5px;*/
-/*    margin-right: 5px;*/
-/*    margin-bottom: 5px;*/
-/*    margin-left: 5px;*/
-/*    padding: 0 0px;*/
-    /*border: 2px black solid;*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-
-/*.photo {*/
-/*    margin-top: 10px;*/
-    /*border: 3px black solid;*/
-    /*width: 100%;*/
-/*    display: flex;*/
-/*}*/
-
-/*.next {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
-/*.start {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
-
+@media screen and (max-width: 750px) {
+   #all{
+       display: none;
+   }
+}
 .blog {
     font-size: 30px;
     color: black;
@@ -461,6 +443,14 @@ nav li a {
     list-style-position: inside;
     justify-content: center;
 }
+@media screen and (max-width: 790px) {
+   .bloc1_macro_ph, .img_no img{
+        display: none;
+    }
+ .blog_macro_ph2{
+     display: none;
+ }
+}
 
 .contact_me {
     font-size: 30px;
@@ -502,6 +492,8 @@ textarea {
     width: 300px;
     margin-bottom: 10px;
 }
+
+
 .footer{
     height: 150px;
     background-color: black;
@@ -524,13 +516,11 @@ textarea {
      align-items: flex-start;
     justify-content: flex-start;
 }
+
 .copyr{
     font-size: 20px;
      margin-top: 20px;
      margin-right: 40px;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
 }
 
 
