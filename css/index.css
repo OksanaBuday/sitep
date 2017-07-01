@@ -13,48 +13,6 @@ header {
     align-items: center;
 }
 
-
-/*header h1 {*/
-
-
-/*    color: black;*/
-
-
-/*    font-size: 30px;*/
-
-
-/*   position: absolute;*/
-
-
-/*    top: 30px;*/
-
-
-/*    right: 80px;*/
-
-
-/*    left: 0px;*/
-
-
-/*    bottom: 0px;*/
-
-
-/*    margin: 0 auto;*/
-
-
-/*    letter-spacing: 10px;*/
-
-
-/*    display: flex;*/
-
-
-/*    justify-content:flex-start;*/
-
-
-/*    align-items:flex-start;*/
-
-
-/*}*/
-
 header p {
     color: white;
     font-size: 60px;
@@ -63,77 +21,71 @@ header p {
     align-items: center;
     justify-content: center;
 }
+
 @media screen and (max-width: 980px) {
     header p {
-       font-size: 40px;       
+        font-size: 40px;
     }
-   
-
 }
+
 @media screen and (max-width: 700px) {
     header p {
-       font-size: 30px;       
+        font-size: 30px;
     }
-    
-.conteiner{
-     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    display: flex;
-    text-align: flex-start;
-    justify-content:flex-start;
-    font-size: 24px;
-}
- .info{
-      position: relative;
+    .conteiner {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 24px;
+    }
+    .info {
+        position: relative;
+    }
+    .two img {
+        width: 700px;
+        height: auto;
+        opacity: 0.4;
+    }
 }
 
-.two img { 
-    width: 700px;
-    height: auto;
-    opacity: 0.4;
-}
-}
 @media screen and (max-width: 550px) {
     header p {
-       font-size: 20px;       
+        font-size: 20px;
     }
-    
-.conteiner{
-     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    display: flex;
-    text-align: flex-start;
-    justify-content:flex-start;
-    font-size: 18px;
-}
- .info{
-      position: relative;
-}
-
-.two img { 
-    width: 600px;
-    height: auto;
-    opacity: 0.4;
-}
+    .conteiner {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        font-size: 18px;
+    }
+    .info {
+        position: relative;
+    }
+    .two img {
+        width: 600px;
+        height: auto;
+        opacity: 0.4;
+    }
 }
 
 @media screen and (max-width: 150px) {
     header p {
-       display: none;      
+        display: none;
     }
 }
 
-    
-    
-    
-   /*//////////////////////////////////////////////////////////////////////////// */
+
+/*//////////////////////////////////////////////////////////////////////////// */
 
 
 /*..................................................................*/
+
 nav {
     position: absolute;
     top: 0px;
@@ -251,19 +203,20 @@ nav li a {
 }
 
 @media screen and (max-width: 1220px) {
- .photo {
-     border:none;
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- }
- }
+    .photo {
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 @media screen and (max-width: 550px) {
- .kind {
-     font-size: 20px;
- }
- }
+    .kind {
+        font-size: 20px;
+    }
+}
 
 .serv {
     font-size: 30px;
@@ -317,7 +270,6 @@ nav li a {
     background-color: #D7D7D7;
     margin: 0 auto;
     padding-top: 10px;
-    padding-right: -10px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
@@ -348,28 +300,28 @@ nav li a {
     margin: 0 auto;
     background-color: #E8EAEB;
     padding-top: 10px;
-    padding-right: -10px;
     padding-bottom: 10px;
     padding-left: 10px;
 }
+
 @media screen and (max-width: 920px) {
- .bloc1  {
-  display: inline-block;
-  width: 100%;
-  font-family: 24px;
- } 
- .bloc2  {
-    display: inline-block;
-   width: 100%;
-  font-family: 24px;
- }
-.bloc1 ul {
-    margin-bottom: 15px;
- }
- .bloc2 ul{
-  margin-bottom:  15px;
- }
- }
+    .bloc1 {
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+    }
+    .bloc2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 20px;
+    }
+    .bloc1 ul {
+        margin-bottom: 15px;
+    }
+    .bloc2 ul {
+        margin-bottom: 15px;
+    }
+}
 
 .flick_feed {
     font-size: 30px;
@@ -385,22 +337,23 @@ nav li a {
 .all_ph img {
     height: 100px;
     margin: 0 auto;
-   
 }
 
 .all_ph {
     border: 2px black solid;
-    padding-top: 5px;  
+    padding-top: 5px;
     padding-bottom: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 750px) {
-   #all{
-       display: none;
-   }
+    #all {
+        display: none;
+    }
 }
+
 .blog {
     font-size: 30px;
     color: black;
@@ -416,7 +369,7 @@ nav li a {
     height: 200px;
     border: 2px black solid;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
 .blog_macro_ph {
@@ -443,13 +396,15 @@ nav li a {
     list-style-position: inside;
     justify-content: center;
 }
+
 @media screen and (max-width: 790px) {
-   .bloc1_macro_ph, .img_no img{
+    .bloc1_macro_ph,
+    .img_no img {
         display: none;
     }
- .blog_macro_ph2{
-     display: none;
- }
+    .blog_macro_ph2 {
+        display: none;
+    }
 }
 
 .contact_me {
@@ -493,43 +448,43 @@ textarea {
     margin-bottom: 10px;
 }
 
-
-.footer{
+.footer {
     height: 150px;
     background-color: black;
     color: white;
     margin-top: 10px;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
+
 .contacts {
     display: flex;
-    justify-content:flex-start;
-   align-items:flex-start;
-     list-style-type: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
 }
-.contacts li{
+
+.contacts li {
     margin-top: 5px;
-       list-style-type: none;
-         display: flex;
-     align-items: flex-start;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
     justify-content: flex-start;
 }
 
-.copyr{
+.copyr {
     font-size: 20px;
-     margin-top: 20px;
-     margin-right: 40px;
+    margin-top: 20px;
+    margin-right: 40px;
 }
 
-
-.contacts li a{
-     text-decoration: none;
-      align-items: flex-end;
+.contacts li a {
+    text-decoration: none;
+    align-items: flex-end;
     justify-content: flex-end;
 }
-.contacts li a img{
-     width: 30px;
-}
 
+.contacts li a img {
+    width: 30px;
+}
