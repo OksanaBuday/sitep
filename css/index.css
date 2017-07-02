@@ -278,6 +278,7 @@ nav li a {
     width: 100%;
     list-style-type: none;
     margin: 0 auto;
+     
 }
 
 .bloc2 li {
@@ -326,12 +327,16 @@ nav li a {
 
 @media screen and (max-width: 920px) {
     .bloc1 {
-        display: inline-block;
+       display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
         width: 50%;
         font-size: 18px;
     }
     .bloc2 {
-        display: inline-block;
+       display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
         width: 50%;
         font-size: 18px;
     }
@@ -344,13 +349,18 @@ nav li a {
 }
 @media screen and (max-width: 500px) {
      .bloc1 {
-        display: inline-block;
-        width: 80%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        width: 90%;
       
     }
     .bloc2 {
-        display: inline-block;
-        width: 80%;
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        width: 90%;
+     
      
     }
 }
