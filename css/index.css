@@ -349,17 +349,17 @@ nav li a {
 }
 @media screen and (max-width: 500px) {
      .bloc1 {
-        display: flex;
+       display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 90%;
+        width: 80%;
       
     }
     .bloc2 {
         display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 90%;
+        width: 80%;
      
      
     }
