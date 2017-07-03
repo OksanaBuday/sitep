@@ -1,5 +1,5 @@
 $(function(){
-    $('btn-send').click(sendForm)
+    $('#btn-send').click(sendForm)
 });
 
 function sendForm (e){
