@@ -3,7 +3,9 @@
     margin: 0 auto;
   
 }
-
+*{
+   font-family: 'Muli', sans-serif;
+}
 header {
     background-image: url("../img/backgroud_girl.jpg");
     background-position: center center;
@@ -85,12 +87,23 @@ header p {
         opacity: 0.4;
     }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 490px) {
     header p {
         font-size: 18px;
     }
      .two img {
         width: 700px;
+        height: auto;
+        opacity: 0.4;
+    }
+    
+}
+@media screen and (max-width: 390px) {
+    header p {
+        font-size: 18px;
+    }
+     .two img {
+        width: 900px;
         height: auto;
         opacity: 0.4;
     }
@@ -156,7 +169,7 @@ nav li a {
 }
 
 .info {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 20px;
     margin-right: 10px;
     margin-left: 10px;
