@@ -19,7 +19,7 @@ header {
 
 header p {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -33,7 +33,7 @@ header p {
 }
 @media screen and (max-width: 700px) {
     header p {
-        font-size: 30px;
+        font-size: 18px;
     }
     .conteiner {
         position: absolute;
@@ -49,7 +49,7 @@ header p {
         position: relative;
     }
     .two img {
-        width: 700px;
+        width: 760px;
         height: auto;
         opacity: 0.4;
     }
@@ -59,10 +59,16 @@ header p {
         font-size: 40px;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 690px) {
      header p {
         font-size: 30px;
     }
+     .two img {
+        width: 1000px;
+        height: auto;
+        opacity: 0.4;
+    }
+   
 }
 @media screen and (max-width: 550px) {
     header p {
@@ -92,7 +98,7 @@ header p {
         font-size: 18px;
     }
      .two img {
-        width: 700px;
+        width: 800px;
         height: auto;
         opacity: 0.4;
     }
@@ -103,7 +109,7 @@ header p {
         font-size: 18px;
     }
      .two img {
-        width: 900px;
+        width: 1000px;
         height: auto;
         opacity: 0.4;
     }
@@ -285,6 +291,7 @@ nav li a {
     align-items:center;
     justify-content:center;
     flex-direction:column;
+    margin-right: 30px;
 }
 
 .bloc1 li {
@@ -343,14 +350,14 @@ nav li a {
        display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 50%;
+        width: 100%;
         font-size: 18px;
     }
     .bloc2 {
        display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 50%;
+        width: 100%;
         font-size: 18px;
     }
     .bloc1 ul {
@@ -365,14 +372,14 @@ nav li a {
        display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 80%;
+        width: 100%;
       
     }
     .bloc2 {
         display: flex;
         flex-wrap:wrap;
         justify-content:center;
-        width: 80%;
+        width: 100%;
      
      
     }
@@ -388,24 +395,28 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
-.all_ph img {
-    height: 100px;
-    margin: 0 auto;
+#myCarousel img {
+    height: 350px;
+    
 }
 
-.all_ph {
-    border: 2px black solid;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.all_ph img {*/
+/*    height: 100px;*/
+/*    margin: 0 auto;*/
+/*}*/
 
-@media screen and (max-width: 1200px) {
+/*.all_ph {*/
+/*    border: 2px black solid;*/
+/*    padding-top: 5px;*/
+/*    padding-bottom: 5px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+@media screen and (max-width: 630px) {
     #all {
-        display: none;
+       display: none;
     }
 }
 
@@ -443,7 +454,7 @@ nav li a {
 }
 
 .blog_macro_ph2 {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 10px;
     list-style-type: none;
     display: flex;
@@ -451,6 +462,7 @@ nav li a {
     list-style-position: inside;
     justify-content: center;
 }
+
 
 @media screen and (max-width: 790px) {
     .blog_ph img {
@@ -519,7 +531,17 @@ textarea {
     }
  
 }
+.email{
+    font-size: 15px;
+    color: black;
+    margin-right: 10px;
+}
 
+.name_{
+    font-size: 15px;
+     color: black;
+     margin-right: 10px;
+}
 .form {
     margin-top: 20px;
     display: flex;
@@ -531,25 +553,31 @@ textarea {
   #name_ {
      border: 2px solid #ccc;
     width: 300px;
-    height: 20px;
+    height: 30px;
     margin-bottom: 10px;
    
 }
 #e-mail{
     border: 2px solid #ccc;
     width: 300px; 
-     height: 20px;
+     height: 30px;
 }
 .area{
     display: flex;
     justify-content:center;
 }
-.input_submit {
-    width: 300px;
-    margin-bottom: 10px;
+.send {
+    margin-right: 10px;
+    margin-left: 10px;
     display: flex;
     justify-content:center;
 }
+/*.input_submit {*/
+/*    width: 300px;*/
+/*    margin-bottom: 10px;*/
+/*    display: flex;*/
+/*    justify-content:center;*/
+/*}*/
 
 .footer {
     height: 150px;
@@ -582,9 +610,9 @@ textarea {
     margin-top: 20px;
     margin-right: 40px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 404px) {
    .copyr{  
-       font-size: 14px;
+       font-size: 13px;
    }
 }
 

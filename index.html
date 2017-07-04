@@ -34,7 +34,7 @@
     <main>
         <section id="about-me">
             <div class="author">
-                <h3>About Me</h3>
+                <h3><strong>About Me</strong></h3>
             </div>
             <div class="one"><img src="img/photo-camera.jpg" alt="small-photo-camera"></div>
             <div class="info">
@@ -51,7 +51,7 @@
 
         <section id="portfolio">
             <div class="works">
-                <h3>Some Of My Work</h3>
+                <h3><strong>Some Of My Work</strong></h3>
             </div>
             <div class="one"><img src="img/photo-camera.jpg" alt="small-photo-camera"></div><br>
             <div class="kind">
@@ -67,7 +67,7 @@
         </section>
         <section id="service">
             <div class="serv">
-                <h3> My Services </h3>
+                <h3> <strong>My Services</strong> </h3>
             </div>
             <div class="one"><img src="img/photo-camera.jpg" alt="small-photo-camera"></div> <br>
             <div class="test">
@@ -136,7 +136,7 @@
 
         <section id="all">
             <div class="flick_feed">
-                <h3> Flick Feed </h3>
+                <h3><strong> Flick Feed</strong> </h3>
             </div>
             <div class="one"><img src="img/photo-camera.jpg" alt="small-photo-camera"></div><br>
             <!--<div class="all_ph">-->
@@ -146,22 +146,30 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li> 
+        <li data-target="#myCarousel" data-slide-to="4"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="img/clock.jpg" alt="Cat">
+            <img src="img/clock.jpg" alt="clock">
         </div>
 
         <div class="item">
-            <img src="img/tree.jpg" alt="Chania">
+            <img src="img/tree.jpg" alt="tree">
         </div>
 
         <div class="item">
-            <img src="img/magnet.jpg" alt="Flower">
-        </div>
+            <img src="img/magnet.jpg" alt="managet">
+        </div>   
+        <div class="item">
+            <img src="img/dandelion.jpg" alt="dandelion">
+        </div>  
+        <div class="item">
+            <img src="img/flow.jpg" alt="flower">
+        </div>  
+       
     </div>
 
     <!-- Left and right controls -->
@@ -179,7 +187,7 @@
         </section>
         <section id="blog">
             <div class="blog">
-                <h3>Blog</h3>
+                <h3><strong>Blog </strong></h3>
             </div>
             <div class="one"><img src="img/photo-camera.jpg" alt="small-photo-camera"></div><br>
             <ul>
@@ -189,19 +197,19 @@
 
                 </li>
                 <li class="blog_macro_ph2">
-                    <p class="info_no">Everything about macro photography <input type="submit" value="Read more..."></p>
+                   <div class="macro_evr"><p class="info_no">Everything about macro photography <input type="submit" value="Read more..."></p> </div> 
 
-                    <p>Everything about black and white photos <input type="submit" value="Read more..."></p>
+                  <div class="black_evr">  <p>Everything about black and white photos <input type="submit" value="Read more..."></p> </div>
                 </li>
             </ul>
         </section>
 
         <div class="contact_me">
-            <h3> Contact Me </h3>
+            <h3><strong> Contact Me </strong> </h3>
         </div>
         <div class="one"><img src="img/photo-camera.jpg" alt="small-photo-camera"></div><br>
 
-        <!--<form action="https://formspree.io/oksanabuday@gmail.com" method="POST">-->
+     
         <form>
             <div class="form">
                 <div class="label">
@@ -211,7 +219,8 @@
 
 
             <div class="area"><textarea id="comment" name="textarea" placeholder="Message:"></textarea> </div>
-            <input class="input_submit" id="btn-send" type="submit" value="Send">
+       <div class="send"> <input class="btn btn-default" type="submit" value="Submit">  </div> 
+            <!--<input class="input_submit" id="btn-send" type="submit" value="Send">-->
             </div>
 
         </form>
