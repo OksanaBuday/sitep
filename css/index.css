@@ -4,7 +4,6 @@
     font-family: 'Muli', sans-serif;
 }
 
-
 header {
     background-image: url("../img/backgroud_girl.jpg");
     background-position: center center;
@@ -147,15 +146,18 @@ nav li a {
     padding: 0 30px;
     color: black;
 }
+
 .top-menu a:hover {
-    color:grey;
+    color: grey;
 }
+
 .top-menu li a {
     text-decoration: none;
     color: black;
 }
+
 @media screen and (max-width: 700px) {
-       .top-menu {
+    .top-menu {
         margin-top: 80px;
     }
     .top-menu ul {
@@ -185,8 +187,8 @@ nav li a {
         color: white;
     }
     .top-menu a:hover {
-    color:#DCCCB5;
-}
+        color: #DCCCB5;
+    }
     nav {
         height: 80%;
         -webkit-box-ordinal-group: 3;
@@ -194,6 +196,7 @@ nav li a {
         order: 2;
     }
 }
+
 .author {
     font-size: 30px;
     color: black;
@@ -243,6 +246,7 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
+
 @media screen and (max-width: 550px) {
     .kind {
         font-size: 20px;
@@ -269,6 +273,7 @@ nav li a {
     display: flex;
     justify-content: center;
 }
+
 @media screen and (max-width: 1220px) {
     .photo {
         border: none;
@@ -279,6 +284,7 @@ nav li a {
         width: 100%;
     }
 }
+
 .next {
     display: flex;
     flex-direction: column;
@@ -288,7 +294,6 @@ nav li a {
     display: flex;
     flex-direction: column;
 }
-
 
 .serv {
     font-size: 30px;
@@ -344,6 +349,7 @@ nav li a {
     list-style-type: none;
     margin: 0 auto;
 }
+
 @media screen and (max-width: 920px) {
     .bloc1 {
         display: flex;
@@ -418,8 +424,6 @@ nav li a {
     padding-left: 10px;
 }
 
-
-
 .flick_feed {
     font-size: 30px;
     color: black;
@@ -434,8 +438,6 @@ nav li a {
 #myCarousel img {
     height: 350px;
 }
-
-
 
 @media screen and (max-width: 630px) {
     #all {
@@ -540,8 +542,6 @@ textarea {
     }
 }
 
-
-
 .name_ {
     font-size: 15px;
     color: black;
@@ -562,15 +562,15 @@ textarea {
     height: 30px;
     margin-bottom: 10px;
     color: black;
-   
 }
 
 #e-mail {
     border: 2px solid #ccc;
     width: 300px;
     height: 30px;
-     color: black;
+    color: black;
 }
+
 @media screen and (max-width: 500px) {
     .email {
         display: none;
@@ -589,6 +589,7 @@ textarea {
     color: black;
     margin-right: 10px;
 }
+
 .area {
     display: flex;
     justify-content: center;
