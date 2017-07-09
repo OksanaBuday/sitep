@@ -2,7 +2,6 @@
     max-width: 1200px;
     margin: 0 auto;
     font-family: 'Muli', sans-serif;
-    font-family: 'Muli', sans-serif;
 }
 
 
@@ -50,41 +49,6 @@ header p {
         width: 760px;
         height: auto;
         opacity: 0.4;
-    }
-    .top-menu {
-        margin-top: 80px;
-    }
-    .top-menu ul {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        display: block;
-    }
-    .top-menu ul li {
-        padding: 10;
-        text-align: center;
-        letter-spacing: 10px;
-        /*-webkit-transition: .2s;*/
-        /*transition: .2s;*/
-    }
-    .top-menu ul li:hover {
-        letter-spacing: 5px;
-        -webkit-transition: .2s;
-        transition: .2s;
-    }
-    .top-menu ul li a {
-        display: block;
-        padding: 30px 0;
-        font-weight: 1000;
-        font-size: 30px;
-        color: white;
-    }
-    nav {
-        height: 80%;
-        -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-        order: 2;
     }
 }
 
@@ -183,10 +147,52 @@ nav li a {
     padding: 0 30px;
     color: black;
 }
-
+.top-menu a:hover {
+    color:grey;
+}
 .top-menu li a {
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width: 700px) {
+       .top-menu {
+        margin-top: 80px;
+    }
+    .top-menu ul {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: block;
+    }
+    .top-menu ul li {
+        padding: 10;
+        text-align: center;
+        letter-spacing: 10px;
+        /*-webkit-transition: .2s;*/
+        /*transition: .2s;*/
+    }
+    .top-menu ul li:hover {
+        letter-spacing: 5px;
+        -webkit-transition: .2s;
+        transition: .2s;
+    }
+    .top-menu ul li a {
+        display: block;
+        padding: 30px 0;
+        font-weight: 1000;
+        font-size: 30px;
+        color: white;
+    }
+    .top-menu a:hover {
+    color:#DCCCB5;
+}
+    nav {
+        height: 80%;
+        -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+    }
 }
 .author {
     font-size: 30px;
@@ -237,6 +243,11 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width: 550px) {
+    .kind {
+        font-size: 20px;
+    }
+}
 
 .photo img {
     height: 200px;
@@ -258,17 +269,6 @@ nav li a {
     display: flex;
     justify-content: center;
 }
-
-.next {
-    display: flex;
-    flex-direction: column;
-}
-
-.start {
-    display: flex;
-    flex-direction: column;
-}
-
 @media screen and (max-width: 1220px) {
     .photo {
         border: none;
@@ -279,12 +279,16 @@ nav li a {
         width: 100%;
     }
 }
-
-@media screen and (max-width: 550px) {
-    .kind {
-        font-size: 20px;
-    }
+.next {
+    display: flex;
+    flex-direction: column;
 }
+
+.start {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .serv {
     font-size: 30px;
@@ -340,43 +344,6 @@ nav li a {
     list-style-type: none;
     margin: 0 auto;
 }
-
-.nature {
-    border: 2px black solid;
-    margin: 0 auto;
-    background-color: #D7D7D7;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
-.wedding {
-    border: 2px black solid;
-    margin: 0 auto;
-    background-color: #E8EAEB;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
-.kids {
-    border: 2px black solid;
-    margin: 0 auto;
-    background-color: #D7D7D7;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
-.story {
-    border: 2px black solid;
-    margin: 0 auto;
-    background-color: #E8EAEB;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
-
 @media screen and (max-width: 920px) {
     .bloc1 {
         display: flex;
@@ -414,6 +381,44 @@ nav li a {
         width: 100%;
     }
 }
+
+.nature {
+    border: 2px black solid;
+    margin: 0 auto;
+    background-color: #D7D7D7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.wedding {
+    border: 2px black solid;
+    margin: 0 auto;
+    background-color: #E8EAEB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.kids {
+    border: 2px black solid;
+    margin: 0 auto;
+    background-color: #D7D7D7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.story {
+    border: 2px black solid;
+    margin: 0 auto;
+    background-color: #E8EAEB;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
 
 .flick_feed {
     font-size: 30px;
@@ -535,24 +540,7 @@ textarea {
     }
 }
 
-@media screen and (max-width: 500px) {
-    .email {
-        display: none;
-    }
-    .name_ {
-        display: none;
-    }
-    textarea {
-        width: 300px;
-        height: 50px;
-    }
-}
 
-.email {
-    font-size: 15px;
-    color: black;
-    margin-right: 10px;
-}
 
 .name_ {
     font-size: 15px;
@@ -583,7 +571,24 @@ textarea {
     height: 30px;
      color: black;
 }
+@media screen and (max-width: 500px) {
+    .email {
+        display: none;
+    }
+    .name_ {
+        display: none;
+    }
+    textarea {
+        width: 300px;
+        height: 50px;
+    }
+}
 
+.email {
+    font-size: 15px;
+    color: black;
+    margin-right: 10px;
+}
 .area {
     display: flex;
     justify-content: center;
