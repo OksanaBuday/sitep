@@ -3,17 +3,15 @@
     margin: 0 auto;
     font-family: 'Muli', sans-serif;
 }
-
 header {
     background-image: url("../img/backgroud_girl.jpg");
     background-position: center center;
     background-size: cover;
-    height: 720px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 header p {
     color: white;
     font-size: 50px;
@@ -22,11 +20,19 @@ header p {
     align-items: center;
     justify-content: center;
 }
-
 .conteiner {
     margin-right: 5px;
 }
-
+section{
+     /*height: 100vh;*/
+    background-color: white;
+     position: relative;
+    overflow: hidden;
+}
+#about-me{
+    height: 100vh;
+   
+}
 @media screen and (max-width: 700px) {
     header p {
         display: none;
@@ -50,7 +56,6 @@ header p {
         opacity: 0.4;
     }
 }
-
 @media screen and (max-width: 980px) {
     header p {
         font-size: 40px;
@@ -67,7 +72,6 @@ header p {
         opacity: 0.4;
     }
 }
-
 @media screen and (max-width: 550px) {
     header p {
         display: none;
@@ -89,7 +93,6 @@ header p {
         opacity: 0.4;
     }
 }
-
 @media screen and (max-width: 490px) {
     .two img {
         width: 800px;
@@ -97,7 +100,6 @@ header p {
         opacity: 0.4;
     }
 }
-
 @media screen and (max-width: 390px) {
     header p {
         font-size: 18px;
@@ -108,7 +110,6 @@ header p {
         opacity: 0.4;
     }
 }
-
 nav {
     position: absolute;
     top: 10px;
@@ -122,7 +123,6 @@ nav {
     list-style-type: none;
     text-decoration: none;
 }
-
 nav ul {
     display: flex;
     align-items: flex-end;
@@ -132,13 +132,11 @@ nav ul {
     margin: 0px;
     padding: 10px;
 }
-
 nav li {
     list-style: none;
     margin: 0 0px;
     padding: 0 0px;
 }
-
 nav li a {
     font-size: 20px;
     font-weight: bold;
@@ -146,16 +144,13 @@ nav li a {
     padding: 0 30px;
     color: black;
 }
-
 .top-menu a:hover {
     color: grey;
 }
-
 .top-menu li a {
     text-decoration: none;
     color: black;
 }
-
 @media screen and (max-width: 700px) {
     .top-menu {
         margin-top: 80px;
@@ -196,7 +191,6 @@ nav li a {
         order: 2;
     }
 }
-
 .author {
     font-size: 30px;
     color: black;
@@ -216,7 +210,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 .info {
     font-size: 18px;
     margin-top: 20px;
@@ -226,7 +219,6 @@ nav li a {
     justify-content: flex-end;
     align-items: flex-start;
 }
-
 .works {
     font-size: 30px;
     color: black;
@@ -237,7 +229,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 .kind {
     font-size: 30px;
     margin: 0 auto;
@@ -246,13 +237,11 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 @media screen and (max-width: 550px) {
     .kind {
         font-size: 20px;
     }
 }
-
 .photo img {
     height: 200px;
     margin-top: 5px;
@@ -265,7 +254,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 .photo {
     margin-top: 10px;
     border: 3px black solid;
@@ -273,7 +261,6 @@ nav li a {
     display: flex;
     justify-content: center;
 }
-
 @media screen and (max-width: 1220px) {
     .photo {
         border: none;
@@ -284,17 +271,14 @@ nav li a {
         width: 100%;
     }
 }
-
 .next {
     display: flex;
     flex-direction: column;
 }
-
 .start {
     display: flex;
     flex-direction: column;
 }
-
 .serv {
     font-size: 30px;
     color: black;
@@ -305,7 +289,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 .bloc1 {
     width: 60%;
     font-size: 16px;
@@ -317,7 +300,6 @@ nav li a {
     list-style-type: none;
     list-style-position: inside;
 }
-
 .bloc2 {
     width: 60%;
     font-size: 16px;
@@ -329,7 +311,6 @@ nav li a {
     list-style-type: none;
     list-style-position: inside;
 }
-
 .test {
     display: flex;
     align-items: center;
@@ -337,19 +318,16 @@ nav li a {
     flex-direction: column;
     margin-right: 30px;
 }
-
 .bloc1 li {
     width: 100%;
     list-style-type: none;
     margin: 0 auto;
 }
-
 .bloc2 li {
     width: 100%;
     list-style-type: none;
     margin: 0 auto;
 }
-
 @media screen and (max-width: 920px) {
     .bloc1 {
         display: flex;
@@ -372,7 +350,6 @@ nav li a {
         margin-bottom: 15px;
     }
 }
-
 @media screen and (max-width: 500px) {
     .bloc1 {
         display: flex;
@@ -387,7 +364,6 @@ nav li a {
         width: 100%;
     }
 }
-
 .nature {
     border: 2px black solid;
     margin: 0 auto;
@@ -396,7 +372,6 @@ nav li a {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-
 .wedding {
     border: 2px black solid;
     margin: 0 auto;
@@ -405,7 +380,6 @@ nav li a {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-
 .kids {
     border: 2px black solid;
     margin: 0 auto;
@@ -414,7 +388,6 @@ nav li a {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-
 .story {
     border: 2px black solid;
     margin: 0 auto;
@@ -423,7 +396,6 @@ nav li a {
     padding-bottom: 10px;
     padding-left: 10px;
 }
-
 .flick_feed {
     font-size: 30px;
     color: black;
@@ -434,7 +406,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 #myCarousel img {
     height: 350px;
 }
@@ -444,7 +415,6 @@ nav li a {
         display: none;
     }
 }
-
 .blog {
     font-size: 30px;
     color: black;
@@ -455,7 +425,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 .blog_macro_ph img {
     height: 200px;
     border: 2px black solid;
@@ -472,7 +441,6 @@ nav li a {
     list-style-position: inside;
     justify-content: center;
 }
-
 .blog_macro_ph2 img {
     border: 2px black solid;
     height: 300px;
@@ -487,7 +455,6 @@ nav li a {
     list-style-position: inside;
     justify-content: center;
 }
-
 @media screen and (max-width: 790px) {
     .blog_ph img {
         display: flex;
@@ -509,7 +476,6 @@ nav li a {
         display: none;
     }
 }
-
 .contact_me {
     font-size: 30px;
     color: black;
@@ -520,7 +486,6 @@ nav li a {
     justify-content: center;
     align-items: center;
 }
-
 textarea {
     width: 700px;
     height: 150px;
@@ -534,20 +499,17 @@ textarea {
     background-color: #f8f8f8;
     resize: none;
 }
-
 @media screen and (max-width: 790px) {
     textarea {
         width: 400px;
         height: 70px;
     }
 }
-
 .name_ {
     font-size: 15px;
     color: black;
     margin-right: 10px;
 }
-
 .form {
     margin-top: 20px;
     display: flex;
@@ -555,7 +517,6 @@ textarea {
     align-items: center;
     justify-content: center;
 }
-
 #name_ {
     border: 2px solid #ccc;
     width: 300px;
@@ -570,7 +531,6 @@ textarea {
     height: 30px;
     color: black;
 }
-
 @media screen and (max-width: 500px) {
     .email {
         display: none;
@@ -583,25 +543,21 @@ textarea {
         height: 50px;
     }
 }
-
 .email {
     font-size: 15px;
     color: black;
     margin-right: 10px;
 }
-
 .area {
     display: flex;
     justify-content: center;
 }
-
 .send {
     margin-right: 10px;
     margin-left: 10px;
     display: flex;
     justify-content: center;
 }
-
 .footer {
     height: 150px;
     background-color: black;
@@ -611,14 +567,12 @@ textarea {
     justify-content: center;
     align-items: center;
 }
-
 .contacts {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     list-style-type: none;
 }
-
 .contacts li {
     margin-top: 5px;
     list-style-type: none;
@@ -626,13 +580,11 @@ textarea {
     align-items: flex-start;
     justify-content: flex-start;
 }
-
 .copyr {
     font-size: 20px;
     margin-top: 20px;
     margin-right: 40px;
 }
-
 @media screen and (max-width: 404px) {
     .copyr {
         font-size: 12px;

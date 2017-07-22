@@ -32,3 +32,23 @@ $(function() {
     });
 });
 
+$(window).scroll(function(){
+    var st = $(this).scrollTop();
+    $("#about-me").css({
+        "transform":"translate(0%,"+ st/20 +"%"
+    });
+    // $("#portfolio img").css({
+    //     "transform":"translate(0%, "+ st/20 +"%"
+    // });
+  
+    // $("#service").css({
+    //     "transform":"translate(0%,"+ st/20 +"%"
+    // });
+    // $("#all").css({
+    //     "transform":"translate(0%, "+ st/20 +"%"
+    // });
+    // $("#blog").css({
+    //     "transform":"translate(0%,"+ st/20 +"%"
+    // });
+  
+});
